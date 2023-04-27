@@ -600,6 +600,11 @@ video {
   margin-bottom: 10px;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .-mr-1 {
   margin-right: -0.25rem;
 }
@@ -680,12 +685,20 @@ video {
   height: 0.25rem;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .h-\[400px\] {
   height: 400px;
 }
 
 .h-\[60px\] {
   height: 60px;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
 }
 
 .w-6 {
@@ -793,6 +806,11 @@ video {
   background-color: rgb(38 38 38 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#292828\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 40 40 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#ff004f\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 79 / var(--tw-bg-opacity));
@@ -807,12 +825,8 @@ video {
   background-image: linear-gradient(rgba(0,0,0,0.6),#ff004f);
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
+.bg-\[linear-gradient\(rgba\(1\2c 0\2c 0\2c 0\.7\)\2c \#ff003f\2c \#292828\)\] {
+  background-image: linear-gradient(rgba(1,0,0,0.7),#ff003f,#292828);
 }
 
 .object-cover {
@@ -901,13 +915,13 @@ video {
   line-height: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -929,11 +943,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -969,6 +978,11 @@ video {
 .text-\[\#b54769\] {
   --tw-text-opacity: 1;
   color: rgb(181 71 105 / var(--tw-text-opacity));
+}
+
+.text-\[\#ff003f\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 0 63 / var(--tw-text-opacity));
 }
 
 .text-\[\#ff004f\] {
@@ -1090,74 +1104,6 @@ video {
   background-color: rgb(255 0 79 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-\[linear-gradient\(rgba\(0\2c 0\2c 0\2c 0\.6\)\2c \#ff004f\)\]:hover {
-  background-image: linear-gradient(rgba(0,0,0,0.6),#ff004f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(0\.6\2c 0\2c 0\2c 0\.6\)\2c \#ff004f\)\]:hover {
-  background-image: linear-gradient(rgba(0.6,0,0,0.6),#ff004f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(0\2c 0\2c 0\2c 3\)\2c \#ff004f\)\]:hover {
-  background-image: linear-gradient(rgba(0,0,0,3),#ff004f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(0\2c 0\2c 0\2c 10\)\2c \#ff004f\)\]:hover {
-  background-image: linear-gradient(rgba(0,0,0,10),#ff004f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(0\2c 0\2c 10\2c 10\)\2c \#ff004f\)\]:hover {
-  background-image: linear-gradient(rgba(0,0,10,10),#ff004f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(0\2c 10\2c 10\2c 10\)\2c \#ff004f\)\]:hover {
-  background-image: linear-gradient(rgba(0,10,10,10),#ff004f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(10\2c 10\2c 10\2c 10\)\2c \#ff004f\)\]:hover {
-  background-image: linear-gradient(rgba(10,10,10,10),#ff004f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(10\2c 9\2c 10\2c 10\)\2c \#ff004f\)\]:hover {
-  background-image: linear-gradient(rgba(10,9,10,10),#ff004f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(10\2c 9\2c 8\2c 10\)\2c \#ff004f\)\]:hover {
-  background-image: linear-gradient(rgba(10,9,8,10),#ff004f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(10\2c 9\2c 8\2c 7\)\2c \#ff004f\)\]:hover {
-  background-image: linear-gradient(rgba(10,9,8,7),#ff004f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(10\2c 9\2c 8\2c 7\)\2c \#ff009f\)\]:hover {
-  background-image: linear-gradient(rgba(10,9,8,7),#ff009f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(10\2c 9\2c 8\2c 7\)\2c \#ff003f\)\]:hover {
-  background-image: linear-gradient(rgba(10,9,8,7),#ff003f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(10\2c 9\2c 8\2c 7\)\2c \#ff001f\)\]:hover {
-  background-image: linear-gradient(rgba(10,9,8,7),#ff001f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(10\2c 9\2c 8\2c 7\)\2c \#ff002f\)\]:hover {
-  background-image: linear-gradient(rgba(10,9,8,7),#ff002f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(1\2c 9\2c 8\2c 7\)\2c \#ff003f\)\]:hover {
-  background-image: linear-gradient(rgba(1,9,8,7),#ff003f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(1\2c 0\2c 8\2c 7\)\2c \#ff003f\)\]:hover {
-  background-image: linear-gradient(rgba(1,0,8,7),#ff003f);
-}
-
-.hover\:bg-\[linear-gradient\(rgba\(1\2c 0\2c 0\2c 7\)\2c \#ff003f\)\]:hover {
-  background-image: linear-gradient(rgba(1,0,0,7),#ff003f);
-}
-
 .hover\:bg-\[linear-gradient\(rgba\(1\2c 0\2c 0\2c 0\.7\)\2c \#ff003f\)\]:hover {
   background-image: linear-gradient(rgba(1,0,0,0.7),#ff003f);
 }
@@ -1195,8 +1141,17 @@ video {
     flex-basis: 35%;
   }
 
+  .md\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
   .md\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
     line-height: 1;
   }
 }
