@@ -688,8 +688,8 @@ video {
   height: 60px;
 }
 
-.h-\[80vh\] {
-  height: 80vh;
+.h-auto {
+  height: auto;
 }
 
 .w-6 {
@@ -813,10 +813,6 @@ video {
 
 .bg-\[linear-gradient\(rgba\(0\2c 0\2c 0\2c 0\.6\)\2c \#ff004f\)\] {
   background-image: linear-gradient(rgba(0,0,0,0.6),#ff004f);
-}
-
-.bg-\[linear-gradient\(rgba\(1\2c 0\2c 0\2c 0\.7\)\2c \#ff003f\2c \#292828\)\] {
-  background-image: linear-gradient(rgba(1,0,0,0.7),#ff003f,#292828);
 }
 
 .object-cover {
